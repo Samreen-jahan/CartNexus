@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": " cross-env NODE_ENV =development nodemon backend/server.js",
+    "dev": "NODE_ENV=development nodemon backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "cross-env NODE_ENV=production node backend/server.js"
+    "start": "NODE_ENV=production node backend/server.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
