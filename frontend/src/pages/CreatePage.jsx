@@ -64,6 +64,9 @@ const CreatePage = () => {
 						<Button colorScheme='blue' onClick={handleAddProduct} w='full'>
 							Add Product
 						</Button>
+						<Button colorScheme='blue' onClick={handleAddProduct} w='full'>
+							Similar Products
+						</Button>
 					</VStack>
 				</Box>
 			</VStack>
@@ -72,6 +75,3 @@ const CreatePage = () => {
 };
 export default CreatePage;
 
-
-//"dev": "vite",
-    //"build": "vite build",
